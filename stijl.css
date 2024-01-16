@@ -1,0 +1,19 @@
+#spelbord {
+    display: grid;
+    grid-template-columns: repeat(7, 60px);
+    grid-template-rows: repeat(6, 60px);
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 450px;
+}
+
+.cel {
+    width: 60px;
+    height: 60px;
+    background-color: #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.rood { background-color: red; }
+.geel { background-color: yellow; }
